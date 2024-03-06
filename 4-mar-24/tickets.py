@@ -29,7 +29,9 @@ def main():
     #     print(f"{k} {v}")
     prices = ticketPrices.keys()
     sortedPrices = sorted(prices)
-    print(f"Cheapest airline is {ticketPrices[sortedPrices[0]]} offering a price of {sortedPrices[0]} ")
+    print(
+        f"Cheapest airline is {ticketPrices[sortedPrices[0]]} offering a price of {sortedPrices[0]} "
+    )
 
 
 if __name__ == "__main__":
